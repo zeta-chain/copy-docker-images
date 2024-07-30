@@ -11,6 +11,9 @@ source_images=(
 
     # localnet build images
     "golang:1.22.5-bookworm"
+
+    # docker syntax
+    docker/dockerfile:1.7-labs
 )
 
 for source_image in "${source_images[@]}"; do
