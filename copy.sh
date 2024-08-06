@@ -13,7 +13,7 @@ source_images=(
     "golang:1.22.5-bookworm"
 
     # docker syntax
-    docker/dockerfile:1.7-labs
+    docker/dockerfile:1.9-labs
 )
 
 for source_image in "${source_images[@]}"; do
@@ -21,3 +21,4 @@ for source_image in "${source_images[@]}"; do
     target_image_name=$(echo "${source_image}" | tr '/' '-')
     crane copy "${source_image}" "${target_registry}/${target_image_name}"
 done
+
