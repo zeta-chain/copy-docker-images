@@ -17,6 +17,7 @@ source_images=(
     prom/prometheus:v2.53.1
     cloudflare/cloudflared:2024.9.1
     grafana/loki:3.1.0
+    grafana/promtail:2.9.9
 
     # docker syntax
     docker/dockerfile:1.9-labs
