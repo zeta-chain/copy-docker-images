@@ -12,6 +12,12 @@ source_images=(
     # localnet build images
     "golang:1.22.5-bookworm"
 
+    # localnet monitoring images
+    grafana/grafana:11.2.0
+    prom/prometheus:v2.53.1
+    cloudflare/cloudflared:2024.9.1
+    grafana/loki:3.1.0
+
     # docker syntax
     docker/dockerfile:1.9-labs
 )
