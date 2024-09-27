@@ -21,6 +21,9 @@ source_images=(
 
     # docker syntax
     docker/dockerfile:1.9-labs
+
+    # semgrep image
+    semgrep/semgrep
 )
 
 for source_image in "${source_images[@]}"; do
