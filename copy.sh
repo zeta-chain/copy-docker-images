@@ -10,7 +10,7 @@ source_images=(
     "ethereum/client-go:v1.10.26"
 
     # localnet build images
-    "golang:1.22.5-bookworm"
+    "golang:1.22.7-bookworm"
 
     # localnet monitoring images
     grafana/grafana:11.2.0
